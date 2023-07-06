@@ -1,1 +1,47 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  color: black;
+  background: #339900;
+}
+span {
+  display: block;
+}
+.card {
+  width: 250px;
+  height: 350px;
+  border: 0px solid black;
+  padding: 10px;
+  margin: 40px auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 1px 4px grey;
+}
+
+.suitsTop {
+  text-align: left;
+  font-size: 90px;
+}
+
+.suitsBottom {
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  font-size: 90px;
+}
+
+.ranks {
+  font-size: 120px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.red {
+  color: red;
+}
